@@ -1,0 +1,148 @@
+\documentclass[11pt,asfal]{amdresume}
+
+\newcommand{\Name}{EL YOUSEFI AHMED}
+\newcommand{\job}{Ingénieur Actuaire}
+\newcommand{\birthdayDate}{01 oct 2001}
+\newcommand{\location}{Rabat, Maroc}
+\newcommand{\phoneNumber}{+212 778278749}
+\newcommand{\email}{elyousefi.ahmed@outlook.com}
+\newcommand{\linkedinName}{Ahmed EL YOUSEFI}
+\newcommand{\linkedinLink}{https://www.linkedin.com/in/ahmed-el-yousefi/}
+\newcommand{\githubName}{AMD-hub}
+\newcommand{\photoLink}{AMD.png}
+
+
+
+\begin{document}
+\begin{minipage}[c]{0.20\textwidth}
+\begin{tikzpicture}
+    \node at (0,0) [draw=colorr, fill=colorr, line width=2pt, circle, minimum width=\linewidth, path picture={
+        \node at (path picture bounding box.center) {\includegraphics[width=\linewidth]{\photoLink}};
+    }] {};
+\end{tikzpicture}
+\end{minipage}
+\vspace{10pt}
+\hfill
+\hspace{0.1\textwidth}
+\begin{minipage}[r]{0.66\textwidth}
+    \begin{itemize}[itemsep=0.2cm, topsep=0pt, partopsep=0pt, parsep=0pt]
+        \item[] \textbf{\Huge{ \textbf{\uppercase{\Name}}}}
+        \item[] \textbf{\Huge{ \textbf{\uppercase{\job}}}}
+    \end{itemize}        
+\hspace{1cm}
+\end{minipage}
+
+\columnratio{0.34}
+\setlength{\columnsep}{0.5cm}
+
+\begin{paracol}{2}
+
+\switchcolumn
+\section{À PROPOS DE MOI}
+Ingénieur Quantitatif et Actuaire spécialisé en modélisation statistique, tarification actuarielle, gestion des risques et analyse assurance, avec expérience en Python, R et SAS.
+\vspace{0.1cm}
+
+\section{EXPÉRIENCE}
+\subsection{AtlantaSanad Assurance \hfill Casablanca, Maroc}
+\subsubsection{Actuaire Non-Vie \dotfill Jan 2025 – Aujourd'hui}
+\begin{itemize}
+\item Développement du système d'information actuariel.
+\item Élaboration du reporting actuariel et tarification des assurances auto.
+\item Conception d'un modèle Bonus-Malus automobile et calibration des relativités tarifaires de long terme.
+\end{itemize}
+
+\subsection{La Marocaine Vie \hfill Casablanca, Maroc}
+\subsubsection{Stagiaire Actuaire Vie \dotfill Fév 2024 – Juil 2024}
+\begin{itemize}
+\item Mise en œuvre des normes IFRS 17 sur les contrats de réassurance des produits d'assurance vie (couverture décès emprunteur).
+\item Conception du compte de résultat et analyse P\&L pour identifier les leviers clés.
+\end{itemize}
+
+\subsection{Financial Risk Solution \hfill Casablanca, Maroc}
+\subsubsection{Stagiaire Gestion des Risques \dotfill Juil 2023 – Août 2023}
+\begin{itemize}
+\item Valorisation obligataire et de portefeuille, estimation de la VaR par Monte Carlo et calibration du modèle HJM sur \href{https://www.federalreserve.gov/econres/feds/the-us-treasury-yield-curve-1961-to-the-present.htm}{données U.S. Treasury} (2000–2015).
+\end{itemize}
+
+\section{PROJETS}
+
+\subsubsection{Tarification Assurance Auto \dotfill Mar 2023}
+\begin{itemize}
+    \item Tarification des contrats RC auto via l’approche \textbf{Fréquence-Sévérité} en \textbf{SAS}.
+    \item Application d’un \textbf{plafond sur les sinistres importants} pour limiter les pertes extrêmes.
+\end{itemize}
+
+\subsubsection{Bibliothèque de Calcul de Provisions \dotfill Mar 2024}
+\begin{itemize}
+    \item Développement d’une bibliothèque pour le calcul des provisions selon la méthode \textbf{Chain Ladder} en \textbf{Python}.
+\end{itemize}
+
+\subsubsection{Optimisation Moyenne-Variance et Application R Shiny \dotfill Jan 2023}
+\begin{itemize}
+    \item Maximisation du \textbf{ratio moyenne-variance} pour l’optimisation de portefeuille avec \textbf{R}.
+    \item Développement d’une application interactive \textbf{R Shiny} pour visualiser la performance du portefeuille et tester différents scénarios.
+\end{itemize}
+
+\section{FORMATION}
+
+\subsection{Institut National de Statistique et d’Économie Appliquée \hfill Rabat, Maroc}
+\subsubsection{Ingénieur Actuaire et Finance Quantitative \dotfill Oct 2021 – Juil 2024}
+\begin{itemize}
+\item \textbf{Cours pertinents :} Économétrie,  Analyse de séries temporelles, Méthodes stochastics en finance, Produits à revenu fixe et marchés financiers, Modélisation linéaire et non-linéaire, Assurance Vie et Non-Vie, Réassurance.
+\end{itemize}
+
+\subsection{Classes Préparatoires aux Grandes Écoles \hfill Salé, Maroc}
+\subsubsection{Mathématiques et Physique \dotfill Sep 2019 – Juil 2021}
+\begin{itemize}
+\item \textbf{Cours pertinents :} Mathématiques et programmation Python.
+\end{itemize}
+
+\newpage \switchcolumn
+
+\section{CONTACT}
+\hspace{-0.8cm}
+\begin{tabular}{rl}
+    \textcolor{colorr}{\faPhone} & \textbf{\phoneNumber} \\
+    \textcolor{colorr}{\faGithub} & \textbf{\githubName} \\
+    \textcolor{colorr}{\faMapMarker} & \textbf{\location} \\
+    \textcolor{colorr}{\faAt} & \href{mailto:\email}{\textbf{\email}} \\
+    \textcolor{colorr}{\faLinkedin} & \href{\linkedinLink}{\textbf{\linkedinName}} \\
+    \textcolor{colorr}{\faBirthdayCake} & \textbf{\birthdayDate} 
+\end{tabular}
+
+\vspace{0.1cm}
+\section{Langues}
+\hspace{-0.8cm}
+\begin{tabular}{lcl}
+  \textbf{Arabe}     &  : & \textit{Langue maternelle} \\
+  \textbf{Français}  &  : & \textit{Avancé} \\
+  \textbf{Anglais}   &  : & \textit{Intermédiaire} \\
+\end{tabular}
+
+\vspace{0.1cm}
+\section{Hard Skills}
+\begin{itemize}
+    \item \textbf{Sciences Actuarielles :} Assurance non-vie, Assurance vie, Retraits, Protection, Épargne, Réassurance, Comités exécutifs, Gestion Actif-Passif,\\ 
+                                    Solvabilité, IFRS 17
+\\ \divider 
+    \item \textbf{Ingénierie Financière :} Gestion des \\ risques, Tarification de dérivés, Produits à revenu fixe et modélisation de la courbe des taux, 
+                                        Optimisation de portefeuille.
+\\ \divider
+    \item \textbf{Analyse Statistique :} Régression, Prévision de séries temporelles (ARIMA,\\ SARIMA, etc.), Tests statistiques.
+\\ \divider
+    \item \textbf{Langages de Programmation :} Python, R, VBA Excel, SAS, C++, SQL
+\end{itemize}
+
+\section{Soft Skills}
+Esprit analytique, Résolution de problèmes, Communication, Travail en équipe
+
+\section{Loisirs}
+\begin{itemize}[left=0.6cm]
+    \item[\king] \textbf{Échecs :} \\ Développement de la stratégie et de la réflexion critique.
+    \item[\faBook] \textbf{Lecture :} \\ Enrichissement personnel et curiosité intellectuelle.
+    \item[\faTv] \textbf{Cinéma :} \\ Appréciation du cinéma comme art émotionnel et de réflexion.
+\end{itemize}
+ 
+\end{paracol}
+
+\end{document}

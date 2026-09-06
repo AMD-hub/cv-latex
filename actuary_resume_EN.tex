@@ -1,0 +1,126 @@
+\documentclass[11pt]{amdresume}
+
+
+\newcommand{\Name}{EL YOUSEFI AHMED}
+\newcommand{\job}{Actuary}
+\newcommand{\birthdayDate}{01 oct 2001}
+\newcommand{\location}{Rabat, Maroc}
+\newcommand{\phoneNumber}{+212 778278749}
+\newcommand{\email}{elyousefi.ahmed@outlook.com}
+\newcommand{\linkedinName}{Ahmed EL YOUSEFI}
+\newcommand{\linkedinLink}{https://www.linkedin.com/in/ahmed-el-yousefi/}
+\newcommand{\githubName}{AMD-hub}
+\newcommand{\photoLink}{AMD.png}
+
+
+
+\begin{document}
+\begin{minipage}[c]{0.20\textwidth}
+\begin{tikzpicture}
+    \node at (0,0) [draw=colorr, fill=colorr, line width=2pt, circle, minimum width=\linewidth, path picture={
+        \node at (path picture bounding box.center) {\includegraphics[width=\linewidth]{\photoLink}};
+    }] {};
+\end{tikzpicture}
+
+\end{minipage}
+\vspace{10pt}
+\hfill
+\begin{minipage}[c]{0.78\textwidth}
+\begin{itemize}[itemsep=0.2cm, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item[] \textbf{\Huge{ \textbf{\uppercase{\Name}}}}
+    \item[] \textbf{\Huge{ \textbf{\uppercase{\job}}}}
+\end{itemize}
+\hspace{1cm}
+
+\begin{tabular}{rlrlrl}
+    \textcolor{colorr}{\faPhone} & \textbf{\phoneNumber} &
+    \textcolor{colorr}{\faGithub} & \textbf{\githubName} &
+    \textcolor{colorr}{\faMapMarker} & \textbf{\location} \\
+    \textcolor{colorr}{\faAt} & \href{mailto:\email}{\textbf{\email}} &
+    \textcolor{colorr}{\faLinkedin} & \href{\linkedinLink}{\textbf{\linkedinName}} &
+    \textcolor{colorr}{\faBirthdayCake} & \textbf{\birthdayDate} 
+\end{tabular}
+
+\end{minipage}
+
+
+\section{ABOUT ME}
+Quantitative \& Actuarial Engineer skilled in statistical modeling, actuarial pricing, risk management, and insurance analytics, with experience in Python, R, and SAS.
+\vspace{0.1cm}
+
+\section{EXPERIENCE}
+\subsection{AtlantaSanad Insurance \hfill Casablanca, Morocco}
+\subsubsection{No-Life Actuary \dotfill Jan 2025 – Now}
+\begin{itemize}
+\item Developping actuarial Information System. 
+\item Developping Actuarial reporting and Pricing Auto insurance.
+\item Development of a motor insurance Bonus-Malus model and calibration of long-term premium relativities.
+\end{itemize}
+
+\subsection{La Marocaine Vie \hfill Casablanca, Morocco}
+\subsubsection{Life Actuary Intern \dotfill Feb 2024 – Jul 2024}
+\begin{itemize}
+\item Implemented IFRS 17 standards on reinsurance contracts for life insurance products (borrower death coverage).
+\item Designed the income statement and performed P\&L analysis to identify key levers.
+\end{itemize}
+
+\subsection{Financial Risk Solution \hfill Casablanca, Morocco}
+\subsubsection{Risk Management Intern \dotfill Jul 2023 – Aug 2023}
+\begin{itemize}
+\item Bond and portfolio valuation, Monte Carlo VaR estimation, and calibration of the HJM interest rate model on \href{https://www.federalreserve.gov/econres/feds/the-us-treasury-yield-curve-1961-to-the-present.htm}{U.S. Treasury yield curve data (2000–2015)}.
+\end{itemize}
+
+\section{PROJECTS}
+
+\subsubsection{Motor Insurance Pricing \dotfill Mar 2023}
+\begin{itemize}
+    \item Priced motor third-party liability (RC) contracts using the \textbf{Frequency-Severity} approach in \textbf{SAS}.
+    \item Applied \textbf{capping of large claims} to control extreme losses.
+\end{itemize}
+
+
+\subsubsection{Provision Calculation Library \dotfill Mar 2024}
+\begin{itemize}
+    \item Developed a library for provisioning calculations using the \textbf{Chain Ladder} method in \textbf{Python}.
+\end{itemize}
+
+\subsubsection{Mean-Variance Optimization and R Shiny App \dotfill Jan 2023}
+\begin{itemize}
+    \item Maximized the \textbf{mean-variance ratio} for portfolio optimization using \textbf{R}.
+    \item Developed an interactive \textbf{R Shiny} application to visualize portfolio performance and allow scenario testing.
+\end{itemize}
+
+
+
+\section{EDUCATION}
+
+\subsection{National Institute of Statistics and Applied Economics (INSEA) \hfill Rabat, Morocco}
+\subsubsection{Actuarial and Quantitative Finance Engineer \dotfill Oct 2021 – Jul 2024}
+\begin{itemize}
+\item \textbf{Relevant coursework:} Econometrics, time series analysis, stochastic methods in finance, fixed income markets, linear and non-linear models, life and non-life insurance, reinsurance.
+\end{itemize}
+
+\subsection{Preparatory Classes for Grandes Écoles \hfill Salé, Morocco}
+\subsubsection{Mathematics and Physics \dotfill Sep 2019 – Jul 2021}
+\begin{itemize}
+\item \textbf{Relevant Courses:} Mathematics and Python Programming.
+\end{itemize}
+
+
+\section{SKILLS}
+
+\subsection{Languages}
+Arabic: Fluent \hfill French: Advanced \hfill English: Intermediate \hspace{2cm}
+
+\subsection{Hard Skills}
+\begin{itemize}
+    \item \textbf{Actuarial Science:} Non-life insurance, Life insurance, Withdrawal, Protection, Savings, Reinsurance, Executive committees, Asset-Liability Management (ALM), Solvency, IFRS 17
+    \item \textbf{Financial Engineering:} Risk Management, Derivative Pricing, sYield Curve Modeling, Portfolio Optimization
+    \item \textbf{Statistical Analysis:} Regression Analysis, Time Series Forecasting (ARIMA, SARIMA, etc.), Statistical Testing
+    \item \textbf{Programming Languages:} Python, R, VBA Excel, SAS, C++, SQL
+\end{itemize}
+
+\subsection{Soft Skills}
+Analytical Thinking, Problem Solving, Communication, Teamwork
+
+\end{document}

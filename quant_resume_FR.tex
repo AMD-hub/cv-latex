@@ -1,0 +1,143 @@
+\documentclass[11pt,asfal]{amdresume}
+
+\newcommand{\Name}{EL YOUSEFI AHMED}
+\newcommand{\job}{Analyste Quantitatif}
+\newcommand{\birthdayDate}{01 oct 2001}
+\newcommand{\location}{Rabat, Maroc}
+\newcommand{\phoneNumber}{+212 778278749}
+\newcommand{\email}{elyousefi.ahmed@outlook.com}
+\newcommand{\linkedinName}{Ahmed EL YOUSEFI}
+\newcommand{\linkedinLink}{https://www.linkedin.com/in/ahmed-el-yousefi/}
+\newcommand{\githubName}{AMD-hub}
+\newcommand{\photoLink}{AMD.png}
+
+\begin{document}
+\begin{minipage}[c]{0.20\textwidth}
+\begin{tikzpicture}
+    \node at (0,0) [draw=colorr, fill=colorr, line width=2pt, circle, minimum width=\linewidth, path picture={
+        \node at (path picture bounding box.center) {\includegraphics[width=\linewidth]{\photoLink}};
+    }] {};
+\end{tikzpicture}
+\end{minipage}
+\vspace{10pt}
+\hfill
+\hspace{0.1\textwidth}
+\begin{minipage}[r]{0.66\textwidth}
+    \begin{itemize}[itemsep=0.2cm, topsep=0pt, partopsep=0pt, parsep=0pt]
+        \item[] \textbf{\Huge{ \textbf{\uppercase{\Name}}}}
+        \item[] \textbf{\Huge{ \textbf{\uppercase{\job}}}}
+    \end{itemize}        
+\hspace{1cm}
+\end{minipage}
+
+\columnratio{0.34}
+\setlength{\columnsep}{0.5cm}
+
+\begin{paracol}{2}
+
+\switchcolumn
+\section{À PROPOS DE MOI}
+Ingénieur quantitatif avec une expertise en modélisation statistique, optimisation de portefeuille, gestion des risques et finance algorithmique, maîtrisant Python, R et SAS.
+\vspace{0.1cm}
+
+\section{EXPÉRIENCE}
+\subsection{AtlantaSanad Assurance \hfill Casablanca, Maroc}
+\subsubsection{Actuaire Non-Vie \dotfill Jan 2025 – Aujourd'hui}
+\begin{itemize}
+\item Développement du système d'information actuariel.
+\item Élaboration du reporting actuariel et tarification des assurances auto.
+\end{itemize}
+
+\subsection{La Marocaine Vie \hfill Casablanca, Maroc}
+\subsubsection{Stagiaire Actuaire Vie \dotfill Fév 2024 – Juil 2024}
+\begin{itemize}
+\item Mise en œuvre des normes IFRS 17 sur les contrats de réassurance des produits d'assurance vie (couverture décès emprunteur).
+\item Conception du compte de résultat et analyse P\&L pour identifier les leviers clés.
+\end{itemize}
+
+\subsection{Financial Risk Solution \hfill Casablanca, Maroc}
+\subsubsection{Stagiaire Gestion des Risques \dotfill Juil 2023 – Août 2023}
+\begin{itemize}
+\item Développement d’un valorisateur d’obligations, valorisation d’un portefeuille et estimation de la Value-at-Risk.
+\item Calibration du modèle HJM pour les taux instantanés à terme en utilisant \href{https://www.federalreserve.gov/econres/feds/the-us-treasury-yield-curve-1961-to-the-present.htm}{données U.S. Treasury} (2000–2015).
+\end{itemize}
+
+\section{PROJETS}
+
+\subsubsection{Backtesting de Stratégies de Trading \dotfill Nov 2024}
+\begin{itemize}
+    \item Développement et implémentation de stratégies de trading quantitatives.
+    \item Utilisation de la bibliothèque Python \textbf{Backtrader} pour tester ces stratégies sur des données financières historiques et évaluer leurs performances.
+\end{itemize}
+
+\subsubsection{Bibliothèque Python pour la Simulation Stochastique  \dotfill Juil 2024}
+\begin{itemize}
+    \item Conception d’une structure de données adaptée à l’analyse de séries temporelles.
+    \item Développement de classes de processus de diffusion avec méthodes de simulation d’Euler et estimation du Maximum de Vraisemblance (MLE).
+\end{itemize}
+
+\subsubsection{Valorisation d’Options Asiatiques \dotfill Avr 2024}
+\begin{itemize}
+    \item Calibration du modèle Black-Scholes sur la base de \href{https://finance.yahoo.com/quote/%5EGSPC/history/}{données S\&P 500} (2010–2020).
+    \item Valorisation d’options asiatiques via simulation de Monte Carlo et approche PDE de Rogers-Shi.
+\end{itemize}
+
+\section{FORMATION}
+
+\subsection{Institut National de Statistique et d’Économie Appliquée \hfill Rabat, Maroc}
+\subsubsection{Ingénieur Actuaire et Finance Quantitative \dotfill Oct 2021 – Juil 2024}
+\begin{itemize}
+\item \textbf{Cours pertinents :} Économétrie, Calcul stochastique, Méthodes quantitatives, Théorie du risque, Méthodes statistiques en finance, Produits à revenu fixe et marchés financiers, Modélisation linéaire et non linéaire, Analyse de séries temporelles.
+\end{itemize}
+
+\subsection{Classes Préparatoires aux Grandes Écoles \hfill Salé, Maroc}
+\subsubsection{Mathématiques et Physique \dotfill Sep 2019 – Juil 2021}
+\begin{itemize}
+\item \textbf{Cours pertinents :} Mathématiques et programmation Python.
+\end{itemize}
+
+\newpage \switchcolumn
+
+\section{CONTACT}
+\hspace{-0.8cm}
+\begin{tabular}{rl}
+    \textcolor{colorr}{\faPhone} & \textbf{\phoneNumber} \\
+    \textcolor{colorr}{\faGithub} & \textbf{\githubName} \\
+    \textcolor{colorr}{\faMapMarker} & \textbf{\location} \\
+    \textcolor{colorr}{\faAt} & \href{mailto:\email}{\textbf{\email}} \\
+    \textcolor{colorr}{\faLinkedin} & \href{\linkedinLink}{\textbf{\linkedinName}} \\
+    \textcolor{colorr}{\faBirthdayCake} & \textbf{\birthdayDate} 
+\end{tabular}
+
+\vspace{0.1cm}
+\section{Langues}
+\hspace{-0.8cm}
+\begin{tabular}{lcl}
+  \textbf{Arabe}     &  : & \textit{Langue maternelle} \\
+  \textbf{Français}  &  : & \textit{Avancé} \\
+  \textbf{Anglais}   &  : & \textit{Intermédiaire} \\
+\end{tabular}
+
+\vspace{0.1cm}
+\section{Hard Skills}
+\begin{itemize}
+    \item \textbf{Ingénierie Financière :} Gestion des \\ risques, Tarification de dérivés, Produits à revenu fixe et modélisation de la courbe des taux, Optimisation de portefeuille.
+\\ \divider
+    \item \textbf{Analyse Statistique :} Régression, Prévision de séries temporelles (ARIMA, \\ SARIMA, etc.), Tests statistiques.
+\\ \divider
+    \item \textbf{Langages de Programmation :} Python, R, VBA Excel, SAS, C++, SQL
+\end{itemize}
+
+\section{Soft Skills}
+Esprit analytique, Résolution de problèmes, Communication, Travail en équipe
+
+\section{Loisirs}
+\begin{itemize}[left=0.6cm]
+    \item[\king] \textbf{Échecs :} \\ Développement de la stratégie et de la réflexion critique.
+    \item[\faBook] \textbf{Lecture :} \\ Enrichissement personnel et curiosité intellectuelle.
+    \item[\faTv] \textbf{Cinéma :} \\ Appréciation du cinéma comme art émotionnel et réflexif.
+\end{itemize}
+
+\end{paracol}
+
+\end{document}
